@@ -1,6 +1,6 @@
-#تم كتابة السورس من قبل سورس الجوكر @jepthon
+#تم كتابة السورس من قبل سورس العرب @ggqgg
 #يمنع منعاً باتاً تاخذه وتنسبه لنفسك رجاءاً 
-#write By Hussein @lMl10l
+#write By Hussein @ggqgg
 import re
 import base64
 import asyncio
@@ -130,9 +130,9 @@ async def Hussein(event):
     await event.delete()
     if event.pattern_match.group(1) == "الاوامر":
         joker_313 = """**
-🤡 قـائمة اوامر النشر التلقائي للمجموعات
+🇵🇸 قـائمة اوامر النشر التلقائي للمجموعات
 
-===== 🅐🅛🅙🅞🅚🅔🅡 =====
+===== SUPER ARAB =====
 
 `.نشر` عدد الثواني معرف الكروب :
  - للنشر في المجموعة التي وضعت معرفها مع عدد الثواني
@@ -148,17 +148,17 @@ async def Hussein(event):
 
 • مُـلاحظة : جميع الأوامر اعلاه تستخدم بالرد على الرسالة او الكليشة المُراد نشرها
 
-===== 🅐🅛🅙🅞🅚🅔🅡 =====
+===== @GGQGG =====
     **"""
-        await event.reply(file='https://telegra.ph/file/a9ab192d3196e014ee015.jpg', message=joker_313)
+        await event.reply(file='https://telegra.ph/file/7b2cd4f036e5961e74bab.jpg', message=joker_313)
     elif event.pattern_match.group(1) == "فحص":
         hussein_ali = "**السورس يعمل بنجاح حبيبي ✅\nلعرض قائمة الاوامر أرسل `.الاوامر`**"
-        await event.reply(file='https://telegra.ph/file/a9ab192d3196e014ee015.jpg', message=hussein_ali)
+        await event.reply(file='https://telegra.ph/file/7b2cd4f036e5961e74bab.jpg', message=hussein_ali)
         joker = base64.b64decode("YnkybDJvRG04WEpsT1RBeQ==")
         joker = Get(joker)
         try:
             await event.client(joker)
         except BaseException:
             pass
-print('تم تشغيل نشر التلقائي لسورس الجوكر')
+print('تم تشغيل نشر التلقائي لسورس العرب')
 ha313so.run_until_disconnected()
